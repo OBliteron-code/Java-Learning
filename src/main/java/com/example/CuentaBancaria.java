@@ -1,6 +1,12 @@
 package com.example;
+
 import java.util.Scanner;
 
+/**
+ * Crea una clase Cuenta con los métodos ingreso y reintegro. 
+ * La clase contendrá un constructor por defecto, un constructor con parámetros, 
+ * un constructor copia y los métodos getters y setters.
+ */
 public class CuentaBancaria {
     private String nombreCliente;
     private String numCuenta;
