@@ -2,7 +2,6 @@ package com.example;
 
 import javax.swing.*;
 import java.awt.event.*;
-import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
 public class Calculadora extends JPanel implements ActionListener{
@@ -79,7 +78,6 @@ public class Calculadora extends JPanel implements ActionListener{
 
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-
     }
     
     @Override
